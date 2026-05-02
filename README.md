@@ -1,15 +1,24 @@
 # Thezyanghani
 
-This repository contains a simple terminal racing game written in Python and a small 3D racing game that runs directly in the browser.
+This repository now includes a **Roblox-inspired rivals/adventure prototype** built with Three.js in the browser.
 
-## How to play the terminal game
+## Features
 
-Run the script using Python:
+- **Rivals Arena mode**: fight enemy cubes that chase the player.
+- **Adventure mode**: free-roam exploration with enemy pressure.
+- **Collection mode**: gather floating crystal shards.
+- Enhanced visuals versus the original demo:
+  - physically based materials
+  - dynamic lighting + shadows
+  - fog + tone mapping + antialiasing
 
-```
-python3 race.py
-```
+## Controls
 
-## How to play the 3D browser game
+- `WASD` = move
+- `Shift` = dash
+- Mouse click = attack (not active in Collection mode)
+- Use the top HUD dropdown to switch modes.
 
-Open `index.html` in a modern web browser. Use the left and right arrow keys to dodge the red obstacles. Refresh the page to restart after a collision.
+## Run
+
+Open `index.html` in a modern browser.
